@@ -1,0 +1,41 @@
+[33mcommit 7a5f7bbedf28807bc73b7aa6a873a73a9dae66f5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: EC2 Default User <ec2-user@ip-172-31-10-92.us-east-2.compute.internal>
+Date:   Tue Mar 6 14:20:10 2018 +0000
+
+    Install the Bootstrap 3
+
+[33mcommit 76a22b4e66095005dfbc994d0ba2eaaa660c985e[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: EC2 Default User <ec2-user@ip-172-31-10-92.us-east-2.compute.internal>
+Date:   Sun Mar 4 13:12:47 2018 +0000
+
+    Add a full_title helper
+
+[33mcommit 4604599d842f962c5b5755f44e24e4da6b0288c0[m
+Author: EC2 Default User <ec2-user@ip-172-31-10-92.us-east-2.compute.internal>
+Date:   Sun Mar 4 08:42:56 2018 +0000
+
+    Finish static pages
+
+[33mcommit 09c9e2df29746cba98755344721bee35aa4e7ecc[m
+Author: EC2 Default User <ec2-user@ip-172-31-10-92.us-east-2.compute.internal>
+Date:   Sun Mar 4 02:40:14 2018 +0000
+
+    Add a StaticPages about
+
+[33mcommit 06a287b1079ea16bd53b2341e4a33459dce49ef1[m
+Author: EC2 Default User <ec2-user@ip-172-31-10-92.us-east-2.compute.internal>
+Date:   Fri Mar 2 14:17:07 2018 +0000
+
+    Add a StaticPages controller
+
+[33mcommit 40b539234d0cc1b1e0ddd97cd2ffbc267959494c[m
+Author: EC2 Default User <ec2-user@ip-172-31-10-92.us-east-2.compute.internal>
+Date:   Thu Mar 1 13:55:21 2018 +0000
+
+    Improve the README
+
+[33mcommit 30d2f24a1e2258141dfd0b85d0d36148d52203fc[m
+Author: EC2 Default User <ec2-user@ip-172-31-10-92.us-east-2.compute.internal>
+Date:   Thu Mar 1 13:43:50 2018 +0000
+
+    Initial commit
