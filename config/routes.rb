@@ -3,7 +3,7 @@ SampleApp::Application.routes.draw do
   devise_for :users, :controllers => {
     :registrations => "registrations"
   }
-  resources :users, only: [:show, :index]
+  resources :users, only: [:show, :index, :destroy]
   # get "static_pages/home"
   # get "static_pages/help"
   # get "static_pages/about"
