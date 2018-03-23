@@ -1,14 +1,16 @@
 SampleApp::Application.routes.draw do
-  # get "users/show"
   devise_for :users, :controllers => {
     :registrations => "registrations"
   }
-  resources :users, only: [:show, :index, :destroy]
+  resources :users, only: [:show, :index, :destroy] do
+    member do
+      get :following, :followers
+    end
+  end
+  
   resources :microposts, only: [:create, :destroy]
-  # get "static_pages/home"
-  # get "static_pages/help"
-  # get "static_pages/about"
-  # get "static_pages/contact"
+  resources :relationships, only: [:create, :destroy]
+
   root  'static_pages#home'
   match '/help',    to: 'static_pages#help',    via: 'get'
   match '/about',   to: 'static_pages#about',   via: 'get'
